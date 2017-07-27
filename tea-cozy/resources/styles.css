@@ -1,0 +1,152 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin-top: 0;
+    text-align: center;
+
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 69px;
+}
+
+h2{
+    margin: 0px;
+}
+
+h4{
+    margin: 0;
+    padding: 10px
+}
+
+/*--- header ---*/
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    padding: 0 10px;    
+}
+
+header .logo{
+    height: 50px;
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 10px;
+    margin-right: 25px
+}
+
+nav span{
+    padding: 5px;
+}
+
+a{
+    color: seashell;
+    text-decoration: underline;
+}
+
+/*--- mission section ---*/
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img-mission-background.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    margin-bottom: 80px;
+}
+
+.mission-text{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+/*--- tea of the month ---*/
+
+
+.teas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+}
+
+.tea-image-text{
+    width: 300px;
+    margin: 15px;
+}
+
+.teas img{
+    width: 100%;
+    height: 200px;
+}
+
+/*--- locations ---*/
+
+.locations{
+    background: url(img-locations-background.jpg) no-repeat;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 10px 0;
+}
+
+.three-locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+
+
+.addresses{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    margin: 15px 40px 0 0;
+}
+
+#oakdale{
+    margin-right: 0px;
+}
+
+/*--- footer ---*/
+
+.copywright{
+    text-align: left;
+    margin: 80px 0 0 20px;
+}
+
+/*--- anchor adjustment ---*/
+
+.anchor{
+  display: block;
+  height: 69px; /*same height as header*/
+  margin-top: -69px; /*same height as header*/
+  visibility: hidden;
+}
